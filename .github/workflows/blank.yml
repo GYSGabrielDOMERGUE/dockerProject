@@ -1,12 +1,12 @@
-name: ff
+name: firstworkflow
 on: workflow_dispatch
 jobs:
-  ptnJpp:
+  Jpp:
     runs-on: ubuntu-latest
     steps:
-     - name: chiant
-       run: echo "c'est relou"
-     - name: chiant2
-       run: echo "c'est reloux2"
-     - name: chiant3
+     - name: truc1
+       run: echo "c'est truc"
+     - name: truc2
+       run: echo "c'est truc2"
+     - name: truc3
        run: echo "c'est fini"
